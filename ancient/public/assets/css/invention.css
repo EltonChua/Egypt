@@ -1,0 +1,64 @@
+.invention-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin: 50px 0;
+        }
+        
+        .invention-card {
+            flex: 1 1 300px;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .invention-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .invention-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .invention-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .invention-card:hover .invention-image img {
+            transform: scale(1.05);
+        }
+        
+        .invention-content {
+            padding: 25px;
+        }
+        
+        .invention-content h3 {
+            margin: 0 0 15px;
+            color: #8e6c3d;
+            font-size: 1.5em;
+        }
+        
+        .invention-content p {
+            margin: 0;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .invention-timeline {
+            margin: 40px 0;
+            padding: 20px;
+            background: #f9f5e9;
+            border-left: 5px solid #8e6c3d;
+        }
+        
+        @media (max-width: 768px) {
+            .invention-section {
+                gap: 20px;
+            }
+        }
