@@ -1,0 +1,73 @@
+ #banner {
+            padding: 8em 0;
+            text-align: center;
+            color: white;
+            position: relative;
+            background-position: center;
+        }
+        
+        .team-container, .stats-container, .values-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .team-member {
+            flex: 1 1 300px;
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+        
+        .team-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #f4f4f4;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+            flex: 1 1 200px;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #4a6da7;
+        }
+        
+        .value-card {
+            flex: 1 1 250px;
+            text-align: center;
+            padding: 2rem 1rem;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        
+        .value-icon {
+            font-size: 2.5rem;
+            color: #4a6da7;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-box {
+            background: #f9f9f9;
+            padding: 2rem;
+            border-radius: 5px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 768px) {
+            .team-member {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
