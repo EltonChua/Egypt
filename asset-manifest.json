@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Egypt/static/css/main.f855e6bc.css",
+    "main.js": "/Egypt/static/js/main.e08c3503.js",
+    "static/js/453.cc7924db.chunk.js": "/Egypt/static/js/453.cc7924db.chunk.js",
+    "index.html": "/Egypt/index.html",
+    "main.f855e6bc.css.map": "/Egypt/static/css/main.f855e6bc.css.map",
+    "main.e08c3503.js.map": "/Egypt/static/js/main.e08c3503.js.map",
+    "453.cc7924db.chunk.js.map": "/Egypt/static/js/453.cc7924db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e08c3503.js"
+  ]
+}
